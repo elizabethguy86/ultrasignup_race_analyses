@@ -19,7 +19,7 @@ class Get_ultrasignup_data():
         for idx, row in enumerate(content):
             if row[0] == 'Did':
                 indices.append(idx)
-    return indices
+        return indices
     
     def scrape_results(self):
          '''Starts web scraper to get table
